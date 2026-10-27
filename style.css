@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 100px;
+    text-align: center;
+    font-family:Arial,sans-serif;
+    color:rgb(248, 245, 246),
+}
+header{
+    background-color: rgb(247, 198, 226);
+    color:white;
+    padding:10px 10px 0px 10px;
+    left:0;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+header h1{
+    margin:5px;
+}
+nav{
+    color:white;
+    margin: 15px;
+    padding:10px;
+}
+.welcome{
+    background-color: rgb(255,180,195);
+    width:95%;
+    margin:30px;
+    padding:25px;
+    border:2px solid black;
+    text-align: center;
+    border-radius:10px;
+}
+.welcome h2{
+    color:rgb(126,75,102);
+
+}
+section{
+    background-color: rgb(242, 238, 189);
+    width:100%;
+    
+    margin:30px;
+    padding:25px;
+}
+section h1{
+    color:rgb(126,75,102);
+    border-bottom:2px solid rgb(220,160,185);
+    padding:10px;
+    margin-bottom: 20px;;
+}
+#about img{
+    width:180px;
+    height:220px;
+    border-radius: 10px;
+    border:5px solid rgb(230,190,205);
+    padding:5px;
+    margin:15px;
+    position:relative;
+    left:0;
+}
+.project{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    margin:10px;
+    padding:10px;
+    background-color: rgb(255,241,246);
+    border:2px solid rgb(230,195,210);
+    border-radius: 10px;
+
+}
+table{
+    width:80%;
+    margin:20px;
+    background-color: rgb(220,195,205);
+}
+table th{
+    background-color: rgb(126,75,105);
+    color:white,
+}
+table td{
+    border:1px solid rgb(220,195,205),
+}
+#contact{
+    background-color:pink;
+}
+button{
+    background-color: pink;
+}
+form{
+    width:450px;
+    margin:20px;
+    padding:20px;
+    text-align:left;
+
+}
+form input{
+    width:70%
+    height:100px;
+    padding:8px;
+}
